@@ -7,6 +7,7 @@ import Sidebar from "./Components/Sidebar";
 import Intro from "./Section/Intro";
 import RecentProjects from "./Section/RecentProjects";
 import Experience from "./Section/Experience";
+import Skills from "./Section/Skills";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Intro />
           <RecentProjects />
           <Experience />
+          <Skills />
         </div>
       </div>
     </div>

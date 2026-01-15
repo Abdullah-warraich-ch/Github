@@ -8,7 +8,7 @@ function Sidebar() {
     <div className="bg-white flex flex-col p-10 rounded-2xl items-center gap-8 sticky top-20">
       <div>
         <img
-          src="Meda.jpeg"
+          src="Media.jpeg"
           alt="Model"
           className="h-71 rounded-2xl shadow shadow-2xl "
         />
