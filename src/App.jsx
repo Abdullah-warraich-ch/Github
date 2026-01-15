@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 import Intro from "./Section/Intro";
+import RecentProjects from "./Section/RecentProjects";
 
 function App() {
   return (
@@ -16,10 +17,10 @@ function App() {
         <div className="">
           <Sidebar />
         </div>
-        <div>
+        <div className="flex flex-col gap-20">
           <Intro />
+          <RecentProjects />
         </div>
-        <div></div>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { CiInstagram, CiFacebook, CiLinkedin } from "react-icons/ci";
 
 function Sidebar() {
   return (
-    <div className="bg-white flex flex-col p-10 rounded-2xl items-center gap-8">
+    <div className="bg-white flex flex-col p-10 rounded-2xl items-center gap-8 sticky top-0">
       <div>
         <img
           src="Meda.jpeg"
