@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 import Intro from "./Section/Intro";
 import RecentProjects from "./Section/RecentProjects";
+import Experience from "./Section/Experience";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <div className="flex flex-col gap-20">
           <Intro />
           <RecentProjects />
+          <Experience />
         </div>
       </div>
     </div>
