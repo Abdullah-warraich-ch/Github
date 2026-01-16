@@ -11,14 +11,14 @@ function Contact() {
       <Heading FWord="LET'S WORK" LWord="TOGETHER" />
       <div>
         <div className="flex gap-3  flex-col">
-          <div className="flex gap-3">
-            <div className="flex flex-col w-1/2 gap-2 ">
+          <div className="flex gap-0 justify-between">
+            <div className="flex flex-col w-[48%] gap-2 ">
               <label for="name" className={labelStyle}>
                 Name
               </label>
               <input type="text" placeholder="Your Name" className={inpStyle} />
             </div>
-            <div className="flex flex-col w-1/2 gap-2">
+            <div className="flex flex-col w-[48%]  gap-2">
               <label for="email" className={labelStyle}>
                 Email
               </label>

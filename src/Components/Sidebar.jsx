@@ -5,12 +5,12 @@ import { CiInstagram, CiFacebook, CiLinkedin } from "react-icons/ci";
 
 function Sidebar() {
   return (
-    <div className="bg-white flex flex-col p-10 rounded-2xl items-center gap-8 sticky top-20">
+    <div className="bg-white flex flex-col p-5 lg:p-10 rounded-2xl items-center gap-8 lg:sticky top-20">
       <div>
         <img
           src="Media.jpeg"
           alt="Model"
-          className="h-71 rounded-2xl shadow shadow-2xl "
+          className="h-71 rounded-2xl shadow shadow-2xl shrink-0 "
         />
       </div>
       <div>
@@ -18,8 +18,8 @@ function Sidebar() {
       </div>
       {/* SVG */}
 
-      <div className="mt-15">
-        <p className="font-medium leading-4 text-center">
+      <div className="lg:mt-15">
+        <p className="font-medium leading-7 text-gray-500 text-center text-xl">
           A Software Engineer who has developed countless innovative solutions.
         </p>
       </div>

@@ -6,7 +6,7 @@ import { LuNotebookPen } from "react-icons/lu";
 
 function Navbar() {
   return (
-    <div className="text-xl text-white gap-8 bg-secondary flex items-center m-8 pl-5 pr-5 pt-3 pb-3 rounded-2xl w-auto">
+    <div className="text-2xl lg:text-xl text-white gap-8 bg-secondary flex items-center  lg:m-8 pl-5 pr-5 pt-3 pb-3 rounded-2xl w-auto">
       <GoHome />
       <GoFileSubmodule />
       <CgWorkAlt />

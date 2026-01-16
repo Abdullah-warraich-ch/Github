@@ -6,19 +6,19 @@ import { FaCode } from "react-icons/fa";
 
 import { CiLocationArrow1 } from "react-icons/ci";
 
-const Hstyle = "text-white font-bold text-5xl";
+const Hstyle = "text-white font-bold text-3xl lg:text-5xl";
 
 function Intro() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col w-full gap-10 items-center md:items-start">
       <div>
         <Heading FWord="SOFTWARE" LWord="ENGINEER" />
       </div>
-      <div className="pr-45">
+      <div className="md:pr-45">
         <Paragraph para="Passionate about creating intuitive and engaging user experiences.Specialize in transforming ideas into beautifully crafted products." />
       </div>
-      <div className="flex w-1/2 gap-20">
-        <div className="flex flex-col items-center">
+      <div className="flex w-full lg:w-1/2 gap-5 md:gap-20">
+        <div className="flex flex-col items-center ">
           <h1 className={Hstyle}>1+</h1>
           <Paragraph para="YEARS OF EXPERIENCE" />
         </div>
@@ -31,13 +31,13 @@ function Intro() {
           <Paragraph para="CLIENTS WORLDWIDE" />
         </div>
       </div>
-      <div className="flex gap-3">
-        <div className="h-61 w-[40%] bg-orange-400 rounded flex flex-col p-8 gap-4 ">
+      <div className="flex gap-3 flex-col md:flex-row">
+        <div className="h-61 w-full md:w-[40%] bg-orange-400 rounded flex flex-col p-8 gap-4 justify-between">
           <div>
             <SiAltiumdesigner size={48} color="white" />
           </div>
           <h1 className="text-white font-medium text-xl">
-            Figma, PhotoShop, Canva & After Effect
+            Figma, PhotoShop & Canva
           </h1>
           <div className="flex justify-end">
             <button
@@ -48,7 +48,7 @@ function Intro() {
             </button>
           </div>
         </div>
-        <div className="h-61 w-[60%] bg-green-400 rounded flex flex-col p-8 gap-4 ">
+        <div className="h-61 w-full md:w-[60%] bg-green-400 rounded flex flex-col p-8 gap-4 justify-between ">
           <div>
             <FaCode size={48} color="black" />
           </div>

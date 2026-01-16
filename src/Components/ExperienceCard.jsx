@@ -9,7 +9,7 @@ function ExperienceCard({ heading, para, date }) {
         <p className="text-gray-500">{para}</p>
         <p className="text-gray-500">{date}</p>
       </div>
-      <div className="transition delay-75 group-hover:translate-x-2">
+      <div className="transition delay-75 group-hover:translate-x-2 hidden lg:block">
         <IoIosArrowForward color="orange" />
       </div>
     </div>

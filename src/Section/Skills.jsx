@@ -13,7 +13,7 @@ function Skills() {
       <div className="mb-10">
         <Heading FWord="TECHNICAL" LWord="SKILLS" />
       </div>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-2 gap-4">
         <SkillCard logo={<FaReact />} title="React JS" disc="Ui Library" />
         <SkillCard logo={<FaFigma />} title="Figma" disc="Design Tool" />
         <SkillCard
