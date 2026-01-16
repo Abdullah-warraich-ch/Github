@@ -8,6 +8,8 @@ import Intro from "./Section/Intro";
 import RecentProjects from "./Section/RecentProjects";
 import Experience from "./Section/Experience";
 import Skills from "./Section/Skills";
+import Contact from "./Section/Contact";
+import Footer from "./Section/Footer";
 
 function App() {
   return (
@@ -24,7 +26,11 @@ function App() {
           <RecentProjects />
           <Experience />
           <Skills />
+          <Contact />
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

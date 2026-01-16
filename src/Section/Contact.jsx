@@ -1,0 +1,75 @@
+import React from "react";
+import Heading from "../Components/Heading";
+
+function Contact() {
+  const labelStyle = "text-gray-500 text-xs";
+  const opStyle = "text-gray-500 text-xs";
+  const inpStyle =
+    " text-gray-500 text-xs bg-secondary p-2 rounded-lg placeholder-gray-500 border-1 outline-none border-transparent focus:border-orange-500 placeholder:text-xs ";
+  return (
+    <div>
+      <Heading FWord="LET'S WORK" LWord="TOGETHER" />
+      <div>
+        <div className="flex gap-3  flex-col">
+          <div className="flex gap-3">
+            <div className="flex flex-col w-1/2 gap-2 ">
+              <label for="name" className={labelStyle}>
+                Name
+              </label>
+              <input type="text" placeholder="Your Name" className={inpStyle} />
+            </div>
+            <div className="flex flex-col w-1/2 gap-2">
+              <label for="email" className={labelStyle}>
+                Email
+              </label>
+              <input
+                type="text"
+                placeholder="Your Email"
+                className={inpStyle}
+              />
+            </div>
+          </div>
+          <div className="flex flex-col gap-2">
+            <label for="Subject" className={labelStyle}>
+              Subject
+            </label>
+            <select
+              name="subject"
+              id="subject"
+              defaultValue="Subject"
+              className={inpStyle}
+            >
+              <option value="freelance" className={opStyle}>
+                Freelance Project
+              </option>
+              <option value="job" className={opStyle}>
+                Job Opportunity
+              </option>
+              <option value="hi" className={opStyle}>
+                Just Saying Hi!
+              </option>
+            </select>
+          </div>
+          <div className="flex flex-col gap-2 ">
+            <label for="name" className={labelStyle}>
+              Message
+            </label>
+            <textarea
+              type="textarea"
+              placeholder="Your Message"
+              className={inpStyle}
+              rows="8"
+            />
+          </div>
+          <div>
+            <button className="bg-orange-500 w-full text-white p-2 rounded text-xs">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Contact;
